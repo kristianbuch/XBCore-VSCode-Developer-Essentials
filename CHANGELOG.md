@@ -1,9 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "xbpowershell-developer-essentials" extension pack will be documented in this file.
+## [0.0.1] - Initial Release
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- First public release of XbPowerShell Developer Essentials.
+- Includes curated extensions for:
+  - PowerShell development
+  - Registry editing and regex tooling
+  - Cross-platform integration (CMD, Bash, JSON, XML, etc.)
+  - Testing, building, and packaging
+  - Formatting and developer experience enhancements
 
-## [Unreleased]
-
-- Initial release
+> Future versions will include optional CLI tools and installer scripts for PowerShell module bootstrapping.

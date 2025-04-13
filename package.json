@@ -1,35 +1,32 @@
 {
   "name": "xbpowershell-developer-essentials",
   "displayName": "XbPowerShell Developer Essentials",
-  "description": "A comprehensive extension pack for PowerShell developers using Visual Studio Code. This collection includes everything you need for modern and advanced scripting — from registry and regex utilities to formatting, testing, packaging, and cross-platform integration. Whether you're working with modules, JSON, bash/CMD, or building EXE tools, this pack boosts your productivity and streamlines your workflow.",
+  "description": "A comprehensive extension pack for PowerShell developers using Visual Studio Code. Includes tools for registry, regex, formatting, testing, packaging, JSON, modules, bash, CMD, and cross-platform scripting.",
   "version": "0.0.1",
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
   "publisher": "NexaBlue",
-  "icon": "images/Logo_NexaBlue_Narrow.png",
   "license": "MIT",
+  "icon": "images/Logo_NexaBlue_Narrow.png",
   "engines": {
-    "vscode": "^1.99.0",
-    "pwsh": "^7.4.0"
+    "vscode": "^1.99.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "publisher.extensionName",
+  "keywords": [
+    "powershell", "pwsh", "automation", "devops", "scripting", "modules",
+    "json", "yaml", "bash", "cmd", "regex", "registry", "formatting", 
+    "testing", "pester", "sql", "build", "debug", "lint", "markdown", "typescript"
+  ],
+  "extensionPack": [
     "ms-dotnettools.vscode-dotnet-runtime",
     "ms-dotnettools.csharp",
     "ms-dotnettools.csdevkit",
     "ms-dotnettools.vscodeintellicode-csharp",
     "ms-vscode.cpptools",
-
     "ms-vscode.hexeditor",
     "oderwat.indent-rainbow",
     "msjsdiag.vscode-react-native",
     "Gruntfuggly.todo-tree",
-
     "ms-vscode.powershell",
     "ironmansoftware.powershellprotools",
     "adrianwilczynski.terminal-commands",
@@ -39,17 +36,14 @@
     "ps-rule.vscode-ps-rule",
     "spmeesseman.vscode-taskexplorer",
     "dbaeumer.vscode-eslint",
-
     "redhat.vscode-yaml",
     "redhat.vscode-xml",
     "shakram02.bash-beautify",
     "rogalmic.bash-debug",
     "foxundermoon.shell-format",
     "ms-vscode.vscode-typescript-next",
-
     "ionutvmi.reg",
     "chrmarti.regex",
-
     "pspester.pester-test",
     "formulahendry.code-runner",
     "yzhang.markdown-all-in-one",
@@ -59,67 +53,13 @@
     "VisualStudioExptTeam.vscodeintellicode",
     "ms-vscode-remote.vscode-remote-extensionpack",
     "ms-windows-ai-studio.windows-ai-studio"
-
-
-
-
-
-
   ],
-  "keywords": [
-    "dotnet",
-    "dotnet-core",
-    "dotnet-sdk",
-    "dotnet-runtime",
-    "cpptools",
-    "c",
-    "c++",
-    "csharp",
-    "csharp-devkit",
-    "csharp-intellicode",
-    "hex-editor",
-    "indent-rainbow",
-    "indentation",
-    "react",
-    "react-native",
-    "simple-react-snippets",
-    "todo-tree",
-    "task-explorer",
-    "powershell",
-    "pwsh",
-    "azure-powershell",
-    "terminal",
-    "run-in-powershell",
-    "terminal-commands",
-    "run-executable",
-    "powershell-pro-tools",
-    "pnp-powershell",
-    "ps-rule",
-    "pester",
-    "pester-test",
-    "powershell-module",
-    "eslint",
-    "regex",
-    "registry",
-    "yaml",
-    "xml",
-    "bash",
-    "bash-formatting",
-    "bash-debug",
-    "shell-format",
-    "typescript",
-    "javascript",
-    "json",
-    "json-formatting",
-    "markdown",
-    "markdown-preview",
-    "markdown-formatter",
-    "copilot",
-    "github-copilot",
-    "code-runner",
-    "gitignore",
-    "sql-formatter",
-    "sql"
-
-]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianbuch/xbpowershell-developer-essentials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristianbuch/xbpowershell-developer-essentials/issues"
+  },
+  "homepage": "https://www.nexablue.dk"
 }

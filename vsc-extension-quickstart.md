@@ -1,21 +1,28 @@
-# Welcome to your VS Code Extension Pack
+# Welcome to XbPowerShell Developer Essentials
 
-## What's in the folder
+This extension pack provides a complete toolset for PowerShell developers using Visual Studio Code.
 
-* This folder contains all of the files necessary for your extension pack.
-* `package.json` - this is the manifest file that defines the list of extensions of the extension pack.
+## What's included
 
-## Get up and running straight away
+- PowerShell extensions for modern scripting and automation
+- VS Code integration for Bash, CMD, and native tools
+- .NET support for hybrid scripting with C# and modules
+- Tools for formatting, testing, and packaging scripts
+- Add-ons for Git, Markdown, SQL, JSON, XML, YAML
+- Optional: Copilot and Intellicode (AI-assisted coding)
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `Extensions Viewlet` and check your extensions are installed.
+## Getting started
 
-## Make changes
+1. Install this pack from the [Marketplace](https://marketplace.visualstudio.com/).
+2. Open your PowerShell project folder in VS Code.
+3. Explore the Command Palette (`Ctrl+Shift+P`) for tasks like:
+   - Format Document
+   - Run Script
+   - Test with Pester
+   - Package with ProTools
+4. Create a `module.psd1` or `manifest.json` to describe your module or project.
+5. Use `Task Explorer` to build and test easily.
 
-* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
+## Need help?
 
-## Install your extension
-
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+Check the [GitHub repository](https://github.com/kristianbuch) for updates and tips, or contact the author via [nexablue.dk](https://nexablue.dk).

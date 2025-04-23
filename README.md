@@ -1,4 +1,4 @@
-# XbPowerShell Developer Essentials
+# XBCore VSCode Developer Essentials
 
 A comprehensive Visual Studio Code extension pack for PowerShell developers.
 
@@ -34,7 +34,7 @@ _For a full list, see the `extensionPack` array in `package.json`._
 Open Visual Studio Code and run:
 
 ```bash
-ext install xbpowershell-developer-essentials
+ext install XBCore-VSCode-Developer-Essentials
 ```
 Or install directly from the Visual Studio Code Marketplace.
 
@@ -47,4 +47,4 @@ Recommended: .NET SDK (if using C# or EXE packaging tools)
 
 📘 License
 Licensed under the MIT License.
-© 2025 Kristian Holm Buch
+© 2025 - Kristian Holm Buch
